@@ -1,3 +1,5 @@
 checkpoints
 data_set
 model
+bk_checkpoints
+bk_model
