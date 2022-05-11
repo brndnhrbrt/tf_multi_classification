@@ -8,14 +8,12 @@ import tensorflow as tf
 from tensorflow.keras.layers import Dense, Flatten
 from tensorflow.keras.applications.vgg16 import VGG16 as PretrainedModel, preprocess_input
 from tensorflow.keras.models import Model
-from tensorflow.keras.preprocessing import image
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.callbacks import Callback
 
 from glob import glob
 
 import numpy as np
-import matplotlib.pyplot as plt
 import os
 
 # %%
